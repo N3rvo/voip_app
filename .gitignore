@@ -1,15 +1,41 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+# Android Studio
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+**/local.properties
+
+# IntelliJ project files (only share useful ones)
+.idea/
+!.idea/codeStyles/
+!.idea/runConfigurations/
+!.idea/vcs.xml
+!.idea/modules.xml
+
+# OS files
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+Thumbs.db
+
+# Java/Kotlin
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and outputs
+*.log
+captures/
+output.json
+test-results/
+*.ec
+
+# Firebase & signing
+firebase/*.json
+*.keystore
+*.jks
+key.properties
+
+# NDK
+obj/
+
+# Misc
+*.orig
